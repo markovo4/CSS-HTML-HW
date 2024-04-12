@@ -8,7 +8,210 @@
     <link href="./styles/styles.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: rgba(218,218,218,0.47);">
+<header class="header">
+    <section class="header__section"
+             style=" display: flex; width: 900px; margin: 0 auto; background-color: white; padding: 0 15px">
+        <div class="header__container" style="width: 900px">
+            <h1 style="padding-left: 10px">HTML Elements</h1>
+            <hr>
+            <nav class="header__menu">
+                <ul class="header__menu-list"
+                    style="display: flex; gap: 15px; padding-left: 10px; font-size: 20px; margin-bottom: 5px">
+                    <li class="header__menu-item" style="list-style: none"><a href="#">Home</a></li>
+                    <li class="header__menu-item" style="list-style: none"><a href="#">Headers</a></li>
+                    <li class="header__menu-item" style="list-style: none"><a href="#">Table</a></li>
+                    <li class="header__menu-item" style="list-style: none"><a href="#">List</a></li>
+                    <li class="header__menu-item" style="list-style: none"><a href="#">Text formats</a></li>
+                    <li class="header__menu-item" style="list-style: none"><a href="#">Blockquotes</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+    </section>
+</header>
+
+<main class="main">
+    <section class="hero"
+             style=" display: flex; width: 900px; margin: 0 auto; background-color: white; padding: 0 15px">
+        <div class="hero__container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid asperiores dignissimos enim minus
+                necessitatibus odio, sint vel voluptatibus? Aliquam dolorem.
+            </p>
+
+            <h2>Header 2</h2>
+            <h3>Header 3</h3>
+            <h4>Header 4</h4>
+            <h5>Header 5</h5>
+            <h6>Header 6</h6>
+            <hr>
+        </div>
+    </section>
+
+    <section class="info"
+             style=" display: flex; flex-direction: column; width: 900px; margin: 0 auto; background-color: white; padding: 0 15px">
+        <div class="info__container">
+            <p>
+                Lorem ipsum <a href="#">dolor sit amet</a>, consectetur adipisicing elit. At consequatur enim est
+                <s>expedita</s> explicabo,
+                facere <u>fugit</u> in ipsam <i>itaque</i> laboriosam <b>molestias</b> nisi, quas, rem repellat
+                reprehenderit
+                sunt
+                tempore
+                tenetur voluptas.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequatur enim est expedita explicabo,
+                <mark>facere</mark>
+                fugit 5<sup>3</sup> = 125 H<sub>2</sub>O in ipsam itaque laboriosam molestias nisi, quas, rem repellat
+                reprehenderit
+                sunt tempore
+                tenetur voluptas.
+            </p>
+        </div>
+        <hr style="width: 900px">
+    </section>
+
+    <section class="table" style=" width: 900px; margin: 0 auto; background-color: white; padding: 0 15px">
+        <div class="table__container">
+            <h1 style="margin: 0; padding: 20px 0">Table</h1>
+            <table style="border-collapse: collapse; width: 100%;">
+
+                <tr>
+                    <th style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Header</th>
+                    <th style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Header</th>
+                    <th style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Header</th>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Lviv</td>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Kyiv</td>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Kharkiv</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Odesa</td>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Zhytomyr</td>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Dnipropetrovsk</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Sumy</td>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Chernivtsi</td>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">Lutsk</td>
+                </tr>
+
+            </table>
+
+            <h1>Unordered List</h1>
+            <ul style="list-style: square">
+                <li>List item 1</li>
+                <li>List item 2
+                    <ul style="list-style: square">
+                        <li>Some nested list item 1</li>
+                    </ul>
+                </li>
+                <li>List item 3</li>
+            </ul>
+
+            <h1>Ordered List</h1>
+            <ol>
+                <li>List item 1</li>
+                <li>List item 2
+                    <ol style="list-style: upper-alpha">
+                        <li>Some nested list item 1</li>
+                    </ol>
+                </li>
+                <li>List item 3</li>
+            </ol>
+            <h1>Definition List</h1>
+            <dl>
+                <dt><b>defines terms 1</b></dt>
+                <dd style="margin: 0; margin-bottom: 20px">description 1</dd>
+                <dt><b>defines terms 2</b></dt>
+                <dd style="margin: 0">description 2</dd>
+            </dl>
+
+            <form action="" style="margin-bottom: 10px">
+                <label for="selector"> Details
+                    <select id="selector" name="selector">
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                    </select>
+                </label>
+            </form>
+            <hr style="margin: 0;">
+        </div>
+    </section>
+
+    <section class="text-formats" style=" width: 900px; margin: 0 auto; background-color: white; padding: 0 15px">
+        <div class="text-formats__container">
+            <h1 style="margin: 0; padding: 20px 0">Text formats</h1>
+            <article>Article text</article>
+            <h1>Article title</h1>
+            <p>Article description</p>
+
+            <h3>Preformatted Text</h3>
+            <pre style="background-color: rgba(218,218,218,0.47); padding: 20px">
+    <strong>Text</strong>
+       in a pre element
+            is displayed in a fixed-width
+    font, and it preserves
+    both          spaces and
+        line breaks
+            </pre>
+
+            <h3>Code</h3>
+            <code>
+                <pre style="background-color: rgba(218,218,218,0.47);">
+
+    .wrapper {
+        display: flex,
+        vertical-align: middle;
+        justify-content: center;
+    }
+                </pre>
+            </code>
+            <h1>Blockquotes</h1>
+            <blockquote cite="https://www.brainyquote.com/quotes/elon_musk_567219">
+                <i>"When something is important enough, you do it even if the odds are not in your favor."</i>
+                <br>
+                <a href="https://www.brainyquote.com/quotes/elon_musk_567219">Elon Musk</a>
+            </blockquote>
+            <hr style="margin: 0;">
+        </div>
+    </section>
+
+    <section class="form" style=" width: 900px; margin: 0 auto; background-color: white; padding: 0 15px 20px">
+        <div class="form__container">
+            <form action=""
+                  style=" padding-top: 10px; display: flex; flex-direction: column; gap: 10px; align-items: flex-end;">
+                <label for="first-name"> First name:
+                    <input id="first-name" name="first-name" type="text">
+                </label>
+                <label for="surname"> Surname:
+                    <input id="surname" name="surname" type="text">
+                </label>
+                <label for="email"> Email:
+                    <input id="email" name="email" type="text">
+                </label>
+                <label for="text-area">
+                    <textarea cols="30" id="text-area" name="text-area" rows="10"></textarea>
+                </label>
+                <button style="width: 60px" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <section class="footer__section" style=" background-color: white; width: 900px; margin: 0 auto; padding: 15px">
+        <div class="footer__container"
+             style=" background-color: #dadada; width: 885px; margin: 0 auto; padding: 50px 0">
+            <p style="text-align: center; margin: 0">© Copyright Epam Systems</p>
+
+        </div>
+
+    </section>
+</footer>
+
 
 <script src="./js/script.js"></script>
 </body>
