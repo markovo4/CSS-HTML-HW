@@ -1,0 +1,27 @@
+{
+  "name": "css-html-hw",
+  "version": "1.0.0",
+  "description": "Homeworks for CSS and HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markovo4/CSS-HTML-HW.git"
+  },
+  "author": "Volodymyr Kirillov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markovo4/CSS-HTML-HW/issues"
+  },
+  "homepage": "https://github.com/markovo4/CSS-HTML-HW#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "dependencies": {
+    "eslint-plugin-html": "^8.1.0"
+  }
+}
