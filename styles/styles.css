@@ -1,0 +1,17 @@
+.company-item {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.container {
+    width: 462px;
+}
+
+.wrapper {
+    font-size: 0;
+}
+
+.company-item {
+    font-size: 20px;
+    padding: 20px;
+}
