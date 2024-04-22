@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .company-item {
     display: inline-block;
     border: 1px solid black;
