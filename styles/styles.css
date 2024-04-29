@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto 12px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 17px;
+    font-family: sans-serif;
+    border-bottom: 2px solid rgba(182, 220, 179, 0.24)
+}
+
+.header__menu-list {
+    display: flex;
+    gap: 50px;
+    color: #3D3D3D;
+    font-size: 18px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.active::after {
+    content: '';
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    width: 50px;
+    height: 2.5px;
+    background-color: #46A358;
+    margin-top: 25px;
+}
+
+.header__button {
+    background-color: #46A358;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 17px;
+    text-align: center;
+    color: white;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.hero__container {
+    max-width: 1200px;
+    margin: 0 auto 12px auto;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.04);
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.hero__image {
+    width: 518px;
+    height: 470px;
+}
+
+.hero__description-list {
+    padding-left: 43px;
+    padding-top: 70px;
+    padding-bottom: 85px;
+    padding-right: 123px;
+}
+
+.hero__description-item-greetings {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.hero__description-item-title {
+    font-weight: 900;
+    max-width: 530px;
+    max-height: 140px;
+    font-size: 50px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: rgb(61, 61, 61);
+    margin-bottom: 5px;
+}
+
+.hero__description-item-subtitle {
+    margin-bottom: 44px;
+    max-width: 557px;
+    height: 45px;
+    color: rgba(61, 61, 61, 0.83);
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.hero__description-item-button {
+    margin-bottom: 85px;
+    color: white;
+    background-color: #46A358;
+    border-radius: 5px;
+    padding: 11px 27px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+mark {
+    background-color: unset;
+    color: green;
+}

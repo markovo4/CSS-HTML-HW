@@ -5,11 +5,49 @@
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+          integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
     <link href="./styles/styles.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+<header class="header">
+    <div class="container">
+        <img alt="logo" class="header__logo" src="./img/logo.png">
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                <li class="header__menu-item active"><a href="#">Home</a></li>
+                <li class="header__menu-item"><a href="#">Shop</a></li>
+                <li class="header__menu-item"><a href="#">Plant Care</a></li>
+                <li class="header__menu-item"><a href="#">Blogs</a></li>
+            </ul>
+        </nav>
+        <button class="header__button"><img alt="" src="./img/Logoutlog-in.png"> Login</button>
+    </div>
+</header>
 
+<main class="main">
+    <section class="hero">
+        <div class="hero__container">
+            <ul class="hero__description-list">
+                <li class="hero__description-item"><span
+                        class="hero__description-item-greetings">Welcome to GreenShop</span></li>
+                <li class="hero__description-item">
+                    <h1 class="hero__description-item-title">Let’s Make a
+                        Better
+                        <mark>Planet</mark>
+                    </h1>
+                </li>
+                <li class="hero__description-item"><p class="hero__description-item-subtitle">We are an online plant
+                    shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban
+                    Jungle. Order your favorite plants!</p></li>
+                <li class="hero__description-item"><a class="hero__description-item-button" href="#">SHOP NOW</a></li>
+            </ul>
+            <img alt="plant" class="hero__image" src="./img/hero-plant.png">
+        </div>
+    </section>
+</main>
 <script src="./js/script.js"></script>
 </body>
 </html>
