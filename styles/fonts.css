@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-BlackItalic.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-BlackItalic.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-BlackItalic.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-BlackItalic.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-BlackItalic.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-BlackItalic.eot');
+    src: url('../fonts/CeraProDEMO-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-BlackItalic.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-BlackItalic.woff') format('woff'),
+    url('../fonts/CeraProDEMO-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
@@ -12,11 +12,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-LightItalic.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-LightItalic.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-LightItalic.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-LightItalic.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-LightItalic.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-LightItalic.eot');
+    src: url('../fonts/CeraProDEMO-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-LightItalic.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-LightItalic.woff') format('woff'),
+    url('../fonts/CeraProDEMO-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -24,11 +24,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Light.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Light.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Light.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Light.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Light.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-Light.eot');
+    src: url('../fonts/CeraProDEMO-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-Light.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-Light.woff') format('woff'),
+    url('../fonts/CeraProDEMO-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -36,11 +36,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-RegularItalic.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-RegularItalic.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-RegularItalic.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-RegularItalic.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-RegularItalic.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-RegularItalic.eot');
+    src: url('../fonts/CeraProDEMO-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-RegularItalic.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-RegularItalic.woff') format('woff'),
+    url('../fonts/CeraProDEMO-RegularItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -48,11 +48,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-BoldItalic.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-BoldItalic.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-BoldItalic.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-BoldItalic.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-BoldItalic.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-BoldItalic.eot');
+    src: url('../fonts/CeraProDEMO-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-BoldItalic.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-BoldItalic.woff') format('woff'),
+    url('../fonts/CeraProDEMO-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -60,11 +60,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Medium.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Medium.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Medium.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Medium.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-Medium.eot');
+    src: url('../fonts/CeraProDEMO-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-Medium.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-Medium.woff') format('woff'),
+    url('../fonts/CeraProDEMO-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -72,11 +72,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-MediumItalic.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-MediumItalic.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-MediumItalic.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-MediumItalic.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-MediumItalic.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-MediumItalic.eot');
+    src: url('../fonts/CeraProDEMO-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-MediumItalic.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-MediumItalic.woff') format('woff'),
+    url('../fonts/CeraProDEMO-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -84,11 +84,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Regular.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Regular.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Regular.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Regular.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-Regular.eot');
+    src: url('../fonts/CeraProDEMO-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-Regular.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-Regular.woff') format('woff'),
+    url('../fonts/CeraProDEMO-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -96,11 +96,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Bold.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Bold.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Bold.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Bold.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-Bold.eot');
+    src: url('../fonts/CeraProDEMO-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-Bold.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-Bold.woff') format('woff'),
+    url('../fonts/CeraProDEMO-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -108,11 +108,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-ThinItalic.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-ThinItalic.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-ThinItalic.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-ThinItalic.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-ThinItalic.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-ThinItalic.eot');
+    src: url('../fonts/CeraProDEMO-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-ThinItalic.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-ThinItalic.woff') format('woff'),
+    url('../fonts/CeraProDEMO-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
     font-display: swap;
@@ -120,11 +120,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Thin.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Thin.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Thin.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Thin.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Thin.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-Thin.eot');
+    src: url('../fonts/CeraProDEMO-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-Thin.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-Thin.woff') format('woff'),
+    url('../fonts/CeraProDEMO-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -132,11 +132,11 @@
 
 @font-face {
     font-family: 'Cera Pro DEMO';
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Black.eot');
-    src: url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Black.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Black.woff2') format('woff2'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Black.woff') format('woff'),
-    url('../../../../../../../WebstormProjects/CSS-HTML-HW/fonts/CeraProDEMO-Black.ttf') format('truetype');
+    src: url('../fonts/CeraProDEMO-Black.eot');
+    src: url('../fonts/CeraProDEMO-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraProDEMO-Black.woff2') format('woff2'),
+    url('../fonts/CeraProDEMO-Black.woff') format('woff'),
+    url('../fonts/CeraProDEMO-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;

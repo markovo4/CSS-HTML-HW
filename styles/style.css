@@ -70,17 +70,6 @@ a {
     flex-direction: column;
 }
 
-/*.catalog__categories li {*/
-/*    margin-bottom: 10px;*/
-/*}*/
-/*.catalog__categories li:last-child {*/
-/*    margin-bottom: 0;*/
-/*}*/
-
-/*.catalog__categories li:not(:last-child) {*/
-/*    margin-bottom: 10px;*/
-/*}*/
-
 .catalog__products {
     display: flex;
     gap: 25px;
@@ -89,5 +78,6 @@ a {
 }
 
 .catalog__product {
-    width: calc(100% / 3 - 50px);
+    flex-basis: 31%;
+    flex-grow: 1;
 }
