@@ -79,7 +79,7 @@
     max-width: 1920px;
     height: 604px;
     margin: 0 auto 80px;
-    background-image: url("/img/hero.png");
+    background-image: url("../img/hero.png");
 }
 
 .hero__content-container {
